@@ -15,5 +15,6 @@ public class LessonServiceTest extends TestCase {
     @Test
     public void createTest() {
         Assert.assertThat("Help! Integers don't work", 1, is(1));
+        Assert.assertBoolean(true);
     }
 }
